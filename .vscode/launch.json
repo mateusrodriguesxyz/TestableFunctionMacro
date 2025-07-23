@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MyTestableMacro}",
+            "name": "Debug MyTestableMacroClient",
+            "program": "${workspaceFolder:MyTestableMacro}/.build/debug/MyTestableMacroClient",
+            "preLaunchTask": "swift: Build Debug MyTestableMacroClient"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MyTestableMacro}",
+            "name": "Release MyTestableMacroClient",
+            "program": "${workspaceFolder:MyTestableMacro}/.build/release/MyTestableMacroClient",
+            "preLaunchTask": "swift: Build Release MyTestableMacroClient"
+        }
+    ]
+}
